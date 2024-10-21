@@ -1,0 +1,190 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar-logo"><a href="index.html">REND</a></h1>
+      <ul class="navbar-links">
+        <li><a href="#home">inicio</a></li>
+        <li><a href="#gallery">galeria</a></li>
+        <li><a href="#services">servicios</a></li>
+        <li><a href="#about">sobre nosotros</a></li>
+        <li><a href="#contact">contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="news">
+        <a class="news-icon" href="https://reflex.dev">
+            <img src="images/new_tab.svg" alt="">
+        </a>
+        <a href="https://reflex.dev">
+            <p>Ahora soportamos proyectos de Reflex en python</p>
+        </a>
+    </div>
+    <header id="home" class="hero">
+      <div data-aos="fade-up" class="container">
+        <div class="hero-glow"></div>
+        <h1 class="hero-logo">REND</h1>
+        <p class="hero-content">
+          Despliega todas tu paginas y aplicaciones en un solo lugar
+        </p>
+      </div>
+    </header>
+
+    <hr id="gallery" class="divider" />
+    <div class="gallery">
+      <div data-aos="fade-up" data-aos-delay="400" class="container">
+        <h2 class="gallery-title">Utiliza la tecnología que desees</h2>
+        <p>
+          Sientete comodo de utilizar la tecnología que más utilizas para
+          depslegar tus aplicaciones
+        </p>
+        <div class="gallery-images">
+          <img data-aos="fade-up" class="gallery-img" src="images/docker.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/database.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/python.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/javascript.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/ruby.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/php.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/mongodb.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/flutter.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/golang.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/react.svg" alt="" />
+          <img data-aos="fade-up" class="gallery-img" src="images/next.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <hr id="services" data-aos="fade" />
+    <section data-aos="fade up" data-aos-delay="300" name="services" class="section">
+      <div class="container">
+        <h2 data-aos="fade-up" class="section-title">Nuestros servicios</h2>
+        <div class="section-gallery">
+          <div
+            data-aos="fade-up"
+            class="section-card"
+            style="
+              background-image: url('images/services_icons/auto_deploy.svg');
+            "
+          >
+            <div></div>
+            <h3>Despliegue automatizado</h3>
+          </div>
+          <div
+            data-aos="fade-up"
+            class="section-card"
+            style="background-image: url('images/services_icons/github.svg')"
+          >
+            <div></div>
+            <h3>Sincronización con github</h3>
+          </div>
+          <div
+            data-aos="fade-up"
+            class="section-card"
+            style="background-image: url('images/services_icons/db.svg')"
+          >
+            <div></div>
+            <h3>Bases de datos de prueba y produccion</h3>
+          </div>
+          <div
+            data-aos="fade-up"
+            class="section-card"
+            style="background-image: url('images/services_icons/big_data.svg')"
+          >
+            <div></div>
+            <h3>Analisis de datos para tus sitios web</h3>
+          </div>
+          <div
+            data-aos="fade-up"
+            class="section-card"
+            style="background-image: url('images/services_icons/security.svg')"
+          >
+            <div></div>
+            <h3>Proteccion contra Ataques DoS y DDoS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr id="about" data-aos="fade"/>
+    <section data-aos="fade-up" data-aos-delay="300" class="section">
+      <div class="container">
+        <h1 class="section-title">¿quiénes somos?</h1>
+        <p class="section-content">
+          En <strong>REND</strong> ofrecemos un sevicio de hosting mediante
+          docker, y kuberenetes. Puedes sincronizar tu cuenta de github para
+          hacer despliegues automáticos. Además contamos con servicios de
+          análisis de datos para que puedas ver las estadisticas de proyectos.
+        </p>
+        <div class="flex-row">
+            <a href="pages/about.html">
+                <div class="cta">
+                  <h3>Conocer más</h3>
+                  <img class="icon" src="images/arrow.svg" alt="" />
+                </div>
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <hr id="contact" data-aos="fade" />
+    <section class="section">
+      <div data-aos="fade-up" class="container">
+        <h1 data-aos="fade" class="section-title">Contactanos</h1>
+        <p data-aos="fade" class="section-content-center">
+          No dudes en contactarnos si tienes una duda,con gusto te ayudaremos.
+        </p>
+        <div class="section-gallery">
+          <form data-aos="flip-right" data-aos-delay="400" class="section-form">
+            <label for="">Nombre</label>
+            <input type="text" placeholder="ingresa tu nombre completo" />
+            <label for="">Correo eléctronico</label>
+            <input type="email" placeholder="example@rend.com" />
+            <label for="">Mensaje</label>
+            <textarea
+              name=""
+              id=""
+              placeholder="Escribe tu mensaje aquí"
+            ></textarea>
+            <div>
+              <button>Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="flex-row">
+          <a href="pages/contact.html">
+            <div class="cta">
+              <h3>Llama ahora</h3>
+              <img class="icon" src="images/call.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr data-aos="fade" data-aos-delay="300" id="footer" />
+    <footer data-aos="fade" data-aos-delay="300" class="flex-row">
+      <div class="container">
+        <div class="hero-glow"></div>
+        <h1>REND</h1>
+        <div>
+          <h3>&copy; 2024 DERECHOS RESERVADOS</h3>
+        </div>
+        <div class="footer-glow"></div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar-logo"><a href="../index.html">REND</a></h1>
+      <ul class="navbar-links">
+        <li><a href="../index.html">inicio</a></li>
+        <li><a href="../index.html#gallery">galeria</a></li>
+        <li><a href="../index.html#services">servicios</a></li>
+        <li><a href="#about">sobre nosotros</a></li>
+        <li><a href="contact.html">contacto</a></li>
+      </ul>
+    </div>
+
+    <header id="home" class="hero">
+      <div data-aos="fade-up" class="container">
+        <div class="hero-glow"></div>
+        <h1 class="hero-logo">REND</h1>
+        <!-- <p class="hero-content">Despliega todas tu paginas y aplicaciones en un solo lugar</p> -->
+      </div>
+    </header>
+
+    <hr class="divider" />
+    <div class="gallery">
+        <div data-aos="fade-up" data-aos-delay="500" class="container">
+            <h1>¿Que es REND?</h1>
+            <div class="align-start">
+                <p>Es la nueva alternativa para los programadores. Nuestra misión es acelerar el despliegue de aplicaciones y creaciones de instancias de bases de datos automatizando todos los procesos tediosos que son necesarios para crear un nuevo proyecto. Con <strong>REND</strong> ya no tienes que precuparte por este tipo de cosas otra vez.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+    <div class="section">
+        <div data-aos="fade-up" data-aos-delay="300" class="container">
+            <h1 style="text-align: center;">Nuestra historia</h1>
+            <div class="align-start">
+                <ul>
+                    <li>
+                        <p><strong>2020:</strong> Creamos nuestro primer servidor para alojar instancias de docker para python e instancias SQLite de prueba.</p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>2022:</strong> Nos adentramos a utilizar kuberenetes para menejar en segundo plano todas la instancias docker de nuestro sitio.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>2024:</strong> Actualizamos nuestro sitio para crear dashboards personalizados de los sitios de nuestros clientes.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- <hr data-aos="fade" data-aos-delay="300" id="footer"> -->
+    <footer data-aos="fade" data-aos-delay="300" class="flex-row">
+      <div class="container">
+        <div class="hero-glow"></div>
+        <h1>REND</h1>
+        <div>
+          <h3>&copy; 2024 DERECHOS RESERVADOS</h3>
+        </div>
+        <div class="footer-glow"></div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

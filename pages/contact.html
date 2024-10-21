@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar-logo"><a href="../index.html">REND</a></h1>
+      <ul class="navbar-links">
+        <li><a href="../index.html">inicio</a></li>
+        <li><a href="../index.html#gallery">galeria</a></li>
+        <li><a href="../index.html#services">servicios</a></li>
+        <li><a href="about.html">sobre nosotros</a></li>
+        <li><a href="contact.html">contacto</a></li>
+      </ul>
+    </div>
+
+    <header id="home" class="hero">
+      <div data-aos="fade-up" class="container">
+        <div class="hero-glow"></div>
+        <h1 class="hero-logo">REND</h1>
+        <!-- <p class="hero-content">Despliega todas tu paginas y aplicaciones en un solo lugar</p> -->
+      </div>
+    </header>
+
+    <hr id="gallery" class="divider" />
+    <div class="gallery">
+      <div data-aos="fade-up" data-aos-delay="400">
+        <h2 class="section-title">Contactos</h2>
+        <h3>No dude en llamarnos</h3>
+        <div style="text-align: left">
+          <form action="" class="section-form">
+            <label for="">Telefono</label>
+            <input type="number" placeholder="ingresa numero de telefono" />
+            <label for="">Asunto</label>
+            <input type="text" placeholder="escribe un mensaje" />
+          </form>
+        </div>
+        <hr class="divider" />
+        <h2>Puedes encontrarnos en</h2>
+        <p>San Diego, California</p>
+      </div>
+      <div data-aos="flip-up" class="map" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>
+          (function () {
+            var setting = {
+              query: "San Diego, California, EE. UU.",
+              width: 500,
+              height: 250,
+              satellite: false,
+              zoom: 12,
+              placeId: "ChIJSx6SrQ9T2YARed8V_f0hOg0",
+              cid: "0xd3a21fdfd15df79",
+              coords: [32.715738, -117.1610838],
+              cityUrl: "/us/ca/san-diego",
+              cityAnchorText:
+                "Map of San Diego, California, United States of America",
+              lang: "es-es",
+              queryString: "San Diego, California, EE. UU.",
+              centerCoord: [32.715738, -117.1610838],
+              id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+              embed_id: "1159840",
+            };
+            var d = document;
+            var s = d.createElement("script");
+            s.src = "https://1map.com/js/script-for-user.js?embed_id=1159840";
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting);
+            };
+            var to = d.getElementsByTagName("script")[0];
+            to.parentNode.insertBefore(s, to);
+          })();
+        </script>
+        <a href="https://1map.com/es-es/map-embed">1 Map</a>
+      </div>
+    </div>
+
+    <!-- <hr data-aos="fade" data-aos-delay="300" id="footer"> -->
+    <footer data-aos="fade" data-aos-delay="300" class="flex-row">
+      <div class="container">
+        <div class="hero-glow"></div>
+        <h1>REND</h1>
+        <div>
+          <h3>&copy; 2024 DERECHOS RESERVADOS</h3>
+        </div>
+        <div class="footer-glow"></div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
